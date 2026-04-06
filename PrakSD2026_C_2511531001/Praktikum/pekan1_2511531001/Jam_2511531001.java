@@ -19,8 +19,8 @@ public final class Jam_2511531001 {
 	
 	//Mutator
 	public void setHour(int h) {this.hh=h;}
-	public void setMinute(int m) {this.hh=m;}
-	public void setSecond(int s) {this.hh=s;}
+	public void setMinute(int m) {this.mm=m;}
+	public void setSecond(int s) {this.ss=s;}
 	
 	//Konversi
 	public int toSeconds () {return hh*3600 + mm*60 +ss;}
